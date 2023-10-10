@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         actions: [
           ElevatedButton(
             onPressed: () {
-              // html.window.open(url, name)
+              html.window.open('https://github.com/lunareraze/dina_flutter', 'new tab');
             },
             child: const Text('GitHub'),
           )
